@@ -126,7 +126,11 @@ app.get('/api/users/logout',auth,(req,res) => {
 })
 
 
+app.get('/api/hello',(req,res)=> {
 
+    res.send("안녕하세요dd")
+
+})
 
 
 
